@@ -17,6 +17,8 @@ Ficheros de configuración para linux y Windows, y plugins con Phatogen.
 - [delimitMate](http://www.vim.org/scripts/script.php?script_id=2754): Cierra automáticamente paréntesis, comillas, etc.
 - [Sparkup](https://github.com/rstacruz/sparkup): Permite escribir HTML muy rápido.
 - [EasyMotion](http://www.vim.org/scripts/script.php?script_id=3526): Facilita y acelera los movimientos en el texto visualizado. 
+- [Syntastc](https://github.com/scrooloose/syntastic): Comprobación de la sintaxis en varios lenguajes
+- [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides): Muestra los niveles de identación
 
 ###Licencia
 
