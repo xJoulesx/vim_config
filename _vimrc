@@ -113,3 +113,9 @@ set noerrorbells
 " Cuando se usa tab para completar una ruta o buffers muestra
 " una lista
 set wildmenu
+
+" Muestra/oculta los caracteres invisibles
+nmap <leader>l :set list!<CR>
+
+" Modifica los caracteres para representar tabs y fines de línea
+"set listchars=tab:▸\ ,eol:¬
