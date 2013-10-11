@@ -19,6 +19,7 @@ Ficheros de configuración para linux y Windows, y plugins con Phatogen.
 - [EasyMotion](http://www.vim.org/scripts/script.php?script_id=3526): Facilita y acelera los movimientos en el texto visualizado. 
 - [Syntastc](https://github.com/scrooloose/syntastic): Comprobación de la sintaxis en varios lenguajes
 - [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides): Muestra los niveles de identación
+- [Vim-airline](https://github.com/bling/vim-airline): Barra de estado mejorada
 
 ###Licencia
 
