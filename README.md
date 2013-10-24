@@ -21,6 +21,7 @@ Ficheros de configuración para linux y Windows, y plugins con Phatogen.
 - [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides): Muestra los niveles de identación.
 - [Vim-airline](https://github.com/bling/vim-airline): Barra de estado mejorada.
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive): Wrapper para Git.
+- [ctrlp.vim](https://github.com/kien/ctrlp.vim): Búsqueda difusa de ficheros, buffers, tags...
 
 ###Licencia
 
