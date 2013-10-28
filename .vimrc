@@ -5,7 +5,7 @@ set nocompatible
 set title
 
 " Habilita pathogen.vim
-call pathogen#infect() 
+call pathogen#infect()
 
 " Si la versión de vim soporta autocmd
 if has('autocmd')
@@ -28,7 +28,7 @@ set smarttab  " Al principio de línea se inserta espacios según sw, no ts
 " Tabulación para Python
 au BufRead,BufNewFile *.py set ts=4
 au BufRead,BufNewFile *.py set sw=4
-  
+
 " Los tabs son espacios
 set expandtab
 
@@ -70,7 +70,7 @@ set guioptions-=m
 set guioptions-=T
 
 " Esquema de colores
-" colorscheme desert 
+" colorscheme desert
 " colorscheme slate
 " colorscheme vibrantink
 colorscheme symfony
@@ -113,3 +113,9 @@ set noerrorbells
 " Cuando se usa tab para completar una ruta o buffers muestra
 " una lista
 set wildmenu
+
+" Muestra/oculta los caracteres invisibles
+nmap <leader>l :set list!<CR>
+
+" Modifica los caracteres para representar tabs y fines de línea
+"set listchars=tab:▸\ ,eol:¬
