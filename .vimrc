@@ -119,3 +119,16 @@ nmap <leader>l :set list!<CR>
 
 " Modifica los caracteres para representar tabs y fines de línea
 "set listchars=tab:▸\ ,eol:¬
+
+"
+" Plugin vim-airline
+"
+
+" Activa los símbolos
+"let g:airline_powerline_fonts = 1
+
+" Corrige los caracteres extraños
+"if !exists('g:airline_symbols')
+"  let g:airline_symbols = {}
+"endif
+"let g:airline_symbols.space = "\ua0"
