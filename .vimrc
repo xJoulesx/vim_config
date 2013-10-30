@@ -125,10 +125,10 @@ nmap <leader>l :set list!<CR>
 "
 
 " Activa los símbolos
-"let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
 
 " Corrige los caracteres extraños
-"if !exists('g:airline_symbols')
-"  let g:airline_symbols = {}
-"endif
-"let g:airline_symbols.space = "\ua0"
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
