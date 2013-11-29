@@ -21,7 +21,7 @@ Ficheros de configuración para linux y Windows, y plugins con Phatogen.
 - [Vim-airline](https://github.com/bling/vim-airline): Barra de estado mejorada.
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive): Wrapper para Git.
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim): Búsqueda difusa de ficheros, buffers, tags...
-- [SnipMate.vim](https://github.com/msanders/snipmate.vim): Motor para snippets al estilo Textmate.
+- [vim-snipmate](https://github.com/garbas/vim-snipmate): Motor para snippets al estilo Textmate.
 - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils.git): Necesario para SnipMate
 - [tlib_vim](https://github.com/tomtom/tlib_vim.git): Necesario para SnipMate
 - [vim-snippets](https://github.com/honza/vim-snippets.git): Colección de snippets para SnipMate
