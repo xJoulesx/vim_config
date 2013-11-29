@@ -16,6 +16,15 @@
 [submodule "vimfiles/bundle/ctrlp.vim"]
 	path = vimfiles/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
-[submodule "vimfiles/bundle/snipmate.vim"]
-	path = vimfiles/bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vimfiles/bundle/vim-snipmate"]
+	path = vimfiles/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "vimfiles/bundle/vim-snippets"]
+	path = vimfiles/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "vimfiles/bundle/vim-addon-mw-utils"]
+	path = vimfiles/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "vimfiles/bundle/tlib_vim"]
+	path = vimfiles/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
