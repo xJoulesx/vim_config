@@ -8,7 +8,6 @@ Ficheros de configuración para linux y Windows, y plugins con Phatogen.
 - [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658): Panel de navegación.
 - [rails.vim](http://www.vim.org/scripts/script.php?script_id=1567): Desarrollo de aplicaciones Rails.
 - [Tag List](http://www.vim.org/scripts/script.php?script_id=273): Navegación por clases y métodos.
-- [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): Snippets al estilo Textmate.
 - [VCSCommand](http://www.vim.org/scripts/script.php?script_id=90): Integración SVN/CVS/Git.
 - [Surround](http://www.vim.org/scripts/script.php?script_id=1697): Inserta y edita pares de tags, paréntesis, comillas, etc.
 - [matchit](http://www.vim.org/scripts/script.php?script_id=290): Extiende la funcionalidad de % a HTML y otros lenguajes.
@@ -22,6 +21,7 @@ Ficheros de configuración para linux y Windows, y plugins con Phatogen.
 - [Vim-airline](https://github.com/bling/vim-airline): Barra de estado mejorada.
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive): Wrapper para Git.
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim): Búsqueda difusa de ficheros, buffers, tags...
+- [snipMate.vim](https://github.com/msanders/snipmate.vim): Snippets al estilo Textmate.
 
 ###Licencia
 
