@@ -6,34 +6,38 @@ set title
 
 " Habilita pathogen.vim
 call pathogen#infect() 
-
-" Si la versión de vim soporta autocmd
-if has('autocmd')
-  " Carga plugins y reglas de indentación según el tipo de fichero cargado
-  filetype plugin indent on
-
-  " Asociación de filetypes
-  "au BufRead,BufNewFile *.html.erb set filetype=html.javascript.eruby
-endif
-
-" Oculta los buffers en lugar de cerrarlos, permitiendo abrir otros ficheros
-" sin guardar los cambios en cada buffer
-set hidden
+call pathogen#helptags()
 
 " Tabulación
 set ts=2      " Dos espacios para el Tab
 set sw=2      " Dos espacios para el autoindent
 set smarttab  " Al principio de línea se inserta espacios según sw, no ts
 
-" Tabulación para Python
-au BufRead,BufNewFile *.py set ts=4
-au BufRead,BufNewFile *.py set sw=4
-  
 " Los tabs son espacios
 set expandtab
 
 " Auto indentación
 set autoindent
+
+" Si la versión de vim soporta autocmd
+if has('autocmd')
+  " Carga plugins y reglas de indentación según el tipo de fichero cargado
+  filetype plugin indent on
+
+  " Tabulación para Python
+  autocmd BufRead,BufNewFile *.py set ts=4
+  autocmd BufRead,BufNewFile *.py set sw=4
+
+  " Asociación de filetypes
+  "au BufRead,BufNewFile *.html.erb set filetype=html.javascript.eruby
+  " Templates de Django
+  autocmd FileType python set filetype=python.django
+  autocmd BufRead,BufNewFile *.html set filetype=htmldjango.html
+endif
+
+" Oculta los buffers en lugar de cerrarlos, permitiendo abrir otros ficheros
+" sin guardar los cambios en cada buffer
+set hidden
 
 " La indentación se fija a múltiplos de sw
 set shiftround
@@ -114,8 +118,24 @@ set noerrorbells
 " una lista
 set wildmenu
 
+" Fija ',' como leader en lugar de '\'
+let mapleader=','
+
 " Muestra/oculta los caracteres invisibles
 nmap <leader>l :set list!<CR>
 
 " Modifica los caracteres para representar tabs y fines de línea
 "set listchars=tab:▸\ ,eol:¬
+
+"
+" Plugin vim-airline
+"
+
+" Activa los símbolos
+"let g:airline_powerline_fonts = 1
+
+" Corrige los caracteres extraños
+"if !exists('g:airline_symbols')
+"  let g:airline_symbols = {}
+"endif
+"let g:airline_symbols.space = "\ua0"
