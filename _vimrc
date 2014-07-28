@@ -5,7 +5,7 @@ set nocompatible
 set title
 
 " Habilita pathogen.vim
-call pathogen#infect() 
+call pathogen#infect()
 call pathogen#helptags()
 
 " Tabulación
@@ -67,14 +67,18 @@ set cursorline
 set enc=utf-8
 
 " Establece el tipo de letra
-set guifont=Consolas
+if has("gui_running")
+  if has("gui_win32")
+    set guifont=Consolas
+  endif
+endif
 
 " Oculta el menú y la barra de herramientas en gVim
 set guioptions-=m
 set guioptions-=T
 
 " Esquema de colores
-" colorscheme desert 
+" colorscheme desert
 " colorscheme slate
 " colorscheme vibrantink
 colorscheme symfony
