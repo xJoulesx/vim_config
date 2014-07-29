@@ -67,7 +67,13 @@ set cursorline
 set enc=utf-8
 
 " Establece el tipo de letra
-"set guifont=Consolas
+if has("gui_running")
+  if has("gui_win32")
+    set guifont=Consolas
+  elseif has("gui_gtk")
+    set guifont=Monospace\ 9
+  endif
+endif
 
 " Oculta el menú y la barra de herramientas en gVim
 set guioptions-=m
