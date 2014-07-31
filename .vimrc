@@ -4,6 +4,9 @@ set nocompatible
 " Muestra el nombre del fichero, su ruta y su estado como título de la ventana
 set title
 
+" Deshabilita algunos plugins
+let g:pathogen_disabled = ['tailminusf', 'vcscommand']
+
 " Habilita pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
